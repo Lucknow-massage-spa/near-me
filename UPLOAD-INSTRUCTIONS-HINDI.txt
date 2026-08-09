@@ -1,0 +1,67 @@
+GITHUB + GOOGLE SEARCH CONSOLE INSTRUCTIONS (HINDI)
+==================================================
+
+1) GitHub repository ka naam/path `near-me` hona chahiye, kyunki final URL hai:
+   https://lucknow-massage-spa.github.io/near-me/
+
+2) Is ZIP ke ANDAR ki sari files/folders repository ke ROOT me upload karein.
+   `index.html` repository root me hi hona chahiye.
+
+3) GitHub -> Settings -> Pages me publishing source ko sahi branch/root par set karein.
+
+4) Deploy hone ke baad browser me ye URLs check karein:
+   https://lucknow-massage-spa.github.io/near-me/
+   https://lucknow-massage-spa.github.io/near-me/sitemap.xml
+   https://lucknow-massage-spa.github.io/near-me/sitemap-services.xml
+   https://lucknow-massage-spa.github.io/near-me/sitemap-areas.xml
+
+5) Google Search Console me URL-prefix property ke liye exactly ye URL use karein:
+   https://lucknow-massage-spa.github.io/near-me/
+
+6) Sitemaps section me sirf main sitemap submit karna enough hai:
+   sitemap.xml
+   (ye 6 child sitemaps ko automatically list karta hai.)
+
+7) Pehle important URLs ke liye URL Inspection se indexing request kar sakte hain:
+   - Home
+   - Services hub
+   - Main service pages
+   - Main area pages
+
+8) Google indexing ko force ya guarantee nahi kiya ja sakta. Sitemap ek discovery hint hai.
+   Existing pages ko Google time ke saath gradually crawl/index kar sakta hai. Fake lastmod dates ya daily automatic date changes use na karein.
+
+9) FUTURE ME NEW PAGE ADD KARTE TIME:
+   - Service page -> services/
+   - Area page -> areas/
+   - Area + service -> area-services/
+   - Article -> blog/
+   - FAQ -> faq/
+   - Guide -> guides/
+   - Naya page relevant directory/index page se link karein.
+   - Sitemap me us URL ko add/update karna zaroori hai.
+
+10) robots.txt NOTE:
+    Google robots.txt ko host root se padhta hai. Project URL `/near-me/robots.txt` standard host robots file nahi hai.
+    Agar aap `https://lucknow-massage-spa.github.io/robots.txt` control karte hain to `robots-root-template.txt` ki lines wahan use kar sakte hain.
+
+11) WEBSITE SCOPE:
+    Site professional wellness/massage enquiries ke liye hai. Illegal/sexual/escort/prostitution services promote nahi ki gayi hain.
+    Medical cure ya guaranteed pain-relief claims remove/soften kiye gaye hain.
+
+12) SECURITY:
+    Site me koi remote script, tracker, malware, mining code ya credential-capture code nahi hai.
+    Public website ko 100% copy-proof banana technically possible nahi hota; copyright notice aur clean code use kiya gaya hai.
+
+INDEXING STRATEGY
+-----------------
+- 300 area-services pages aur 75 repetitive geo-blog pages intentionally `noindex,follow` hain. Ye pages visitors ke liye working hain aur internal links follow ho sakte hain, lekin sitemap me nahi diye gaye.
+- Main lead pages, all 25 service pages, all 100 area pages, 75 stronger service-topic articles, 50 FAQs, 50 preparation guides, contact/legal/hub pages indexable hain.
+- `noindex` ko date/time se automatically remove karne ki koi trick add nahi ki gayi, kyunki bina real content improvement ke timed indexing release Google policy-friendly strategy nahi hai.
+
+FINAL NOTE AFTER RE-AUDIT
+-------------------------
+- Main sitemap me 6 child sitemaps hain.
+- Search Console me 376 pages ka "Excluded by noindex" dikhna failure nahi hoga; ye supporting/repetitive-risk pages ke liye intentional setup hai.
+- Sitemap me 311 important/indexable URLs diye gaye hain.
+- Google ko fake automatic indexing trigger karne wala koi code add nahi kiya gaya hai.

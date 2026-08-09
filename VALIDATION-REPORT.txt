@@ -1,0 +1,88 @@
+FINAL PRE-UPLOAD VALIDATION REPORT
+==================================
+Audit date: 10 August 2026
+Project URL: https://lucknow-massage-spa.github.io/near-me/
+
+PACKAGE SUMMARY
+---------------
+Total files: 708
+HTML pages: 687
+Indexable HTML pages: 311
+Noindex,follow HTML pages (including 404): 376
+Main sitemap index: sitemap.xml
+Child sitemaps: 6
+URLs listed in child sitemaps: 311
+
+FINAL STATIC AUDIT
+------------------
+PASS - 311 sitemap URLs exactly match the 311 indexable canonical URLs.
+PASS - No noindex URL is present in a sitemap.
+PASS - No duplicate indexable canonical URL.
+PASS - No duplicate indexable title.
+PASS - No duplicate indexable meta description.
+PASS - No chopped/ellipsis title or meta description remains.
+PASS - All 687 HTML pages contain the required phone link.
+PASS - All 687 HTML pages contain the required email link.
+PASS - All 687 HTML pages contain a WhatsApp link.
+PASS - 0 broken internal /near-me/ links or local asset references.
+PASS - 0 indexable orphan pages (every indexable page has an internal inbound link).
+PASS - 0 malformed JSON-LD blocks.
+PASS - 0 legacy /women-therapist-near-me/ schema/base references.
+PASS - 0 sexual/escort/erotic/nude-service wording outside the legal boundary page.
+PASS - JavaScript syntax check passed.
+PASS - No third-party JavaScript, iframe, tracker, remote analytics, mining, credential-capture or obfuscated executable code found.
+PASS - Production package contains no Python/PHP/server executable files.
+PASS - HTML language, viewport, single-H1 (normal pages), image-alt, form-label and target=_blank noopener checks passed.
+
+LOCAL HTTP SERVING TEST
+-----------------------
+709 unique public routes/resources tested with a local static HTTP server.
+709 returned HTTP 200.
+0 HTTP failures.
+Test set included all HTML files, canonical directory URLs, CSS, JavaScript, SVG images, manifest and all XML sitemap files.
+
+SITEMAP COUNTS
+--------------
+sitemap-core.xml: 11 URLs
+sitemap-services.xml: 25 URLs
+sitemap-areas.xml: 100 URLs
+sitemap-blog.xml: 75 URLs
+sitemap-faq.xml: 50 URLs
+sitemap-guides.xml: 50 URLs
+Total: 311 URLs
+
+INDEXING APPROACH
+-----------------
+Important hub, service, area, article, FAQ and guide pages are indexable.
+High-overlap supporting area+service pages and repetitive geo-blog pages stay live for visitors but use noindex,follow and are excluded from sitemaps.
+This avoids fake timed-indexing, cloaking, automatic noindex removal and fake daily lastmod changes.
+
+GITHUB PAGES DEPLOYMENT
+-----------------------
+Upload the CONTENTS of this ZIP to the publishing root of the GitHub repository used for /near-me/.
+index.html must be at that publishing root.
+.nojekyll is included.
+All site paths, canonicals and sitemap URLs use:
+https://lucknow-massage-spa.github.io/near-me/
+
+GOOGLE SEARCH CONSOLE
+---------------------
+Use a URL-prefix property for:
+https://lucknow-massage-spa.github.io/near-me/
+
+Submit only:
+https://lucknow-massage-spa.github.io/near-me/sitemap.xml
+
+The main sitemap index references all 6 child sitemaps.
+Google decides crawling, canonical selection and indexing; the package does not attempt to force indexing.
+
+ROBOTS.TXT NOTE
+---------------
+The project includes /near-me/robots.txt for convenience, but standard robots.txt discovery is at the host root:
+https://lucknow-massage-spa.github.io/robots.txt
+A robots-root-template.txt file is included if the account-level root site is under your control.
+
+SECURITY NOTE
+-------------
+This is a static HTML/CSS/JavaScript/XML website package. No malware, hacking payload, remote script or hidden data-exfiltration code was added.
+A public website cannot be made technically impossible to copy; copyright and clean publishing practices are the appropriate protection.

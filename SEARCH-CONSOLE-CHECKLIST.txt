@@ -1,0 +1,16 @@
+GOOGLE SEARCH CONSOLE - SHORT CHECKLIST
+=======================================
+
+1. GitHub par ZIP ko extract karke ANDAR ke contents repository publishing root me upload karein.
+2. Confirm karein ki live home URL open ho:
+   https://lucknow-massage-spa.github.io/near-me/
+3. Confirm karein ki main sitemap browser me XML ke roop me open ho:
+   https://lucknow-massage-spa.github.io/near-me/sitemap.xml
+4. Google Search Console me URL-prefix property use karein:
+   https://lucknow-massage-spa.github.io/near-me/
+5. Sitemaps me `sitemap.xml` submit karein.
+6. Sitemap status Success hone ke baad Home + main Services/Areas URLs ko URL Inspection me check karein.
+7. `noindex` supporting pages ko manually index request na karein.
+8. New important page add karte waqt internal link + correct canonical + sitemap entry add karein.
+9. Sitemap `lastmod` tabhi update karein jab page ka meaningful content actually change ho.
+10. Indexing Google decide karta hai; sitemap discovery/crawling ko support karta hai, guarantee nahi deta.

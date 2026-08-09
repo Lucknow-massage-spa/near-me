@@ -1,0 +1,6 @@
+# IMPORTANT: Google only reads robots.txt from the HOST ROOT.
+# If you control https://lucknow-massage-spa.github.io/robots.txt, place these lines there.
+User-agent: *
+Allow: /near-me/
+
+Sitemap: https://lucknow-massage-spa.github.io/near-me/sitemap.xml

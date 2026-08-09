@@ -1,0 +1,16 @@
+{
+  "name": "Lucknow Women Wellness",
+  "short_name": "Lucknow Wellness",
+  "start_url": "/near-me/",
+  "scope": "/near-me/",
+  "display": "standalone",
+  "background_color": "#fffafc",
+  "theme_color": "#fff0f5",
+  "icons": [
+    {
+      "src": "/near-me/assets/images/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
