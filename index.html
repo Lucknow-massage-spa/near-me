@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rajendra Gupta — Startup Advisor & MVP Builder | India & Australia</title>
+<meta name="description" content="Rajendra Gupta helps founders in India and Australia turn ideas into MVPs and MVPs into real traction. Founder of Celestial IT Verse. 250+ projects. Lucknow, India.">
+<meta name="keywords" content="startup advisor India Australia, MVP consultant India, product builder Lucknow, Rajendra Gupta founder">
+<meta property="og:title" content="Rajendra Gupta — Startup Advisor | India & Australia">
+<meta property="og:description" content="I help founders in India and Australia turn ideas into MVPs and MVPs into real traction.">
+<meta property="og:url" content="https://rajendragupta.xyz/">
+<link rel="canonical" href="https://rajendragupta.xyz/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Rajendra Gupta",
+  "jobTitle": "Founder & CEO",
+  "worksFor": {"@type":"Organization","name":"Celestial IT Verse Pvt. Ltd."},
+  "url": "https://rajendragupta.xyz",
+  "address": {"@type":"PostalAddress","addressLocality":"Lucknow","addressRegion":"Uttar Pradesh","addressCountry":"IN"},
+  "areaServed": ["India","Australia"],
+  "sameAs": ["https://topmate.io/rajendra_gupta11"],
+  "knowsAbout": ["MVP development","startup advisor India","startup advisor Australia","product strategy","web development India"]
+}
+</script>
+<style>
+:root {
+  --bg:      #0a0a0f;
+  --bg2:     #111118;
+  --bg3:     #16161f;
+  --card:    #1a1a26;
+  --gold:    #c9943a;
+  --gold2:   #e8b86d;
+  --blue:    #3a6fd8;
+  --teal:    #2ab89a;
+  --border:  rgba(255,255,255,0.07);
+  --border2: rgba(255,255,255,0.12);
+  --text:    #f0ede8;
+  --text2:   rgba(240,237,232,0.65);
+  --text3:   rgba(240,237,232,0.38);
+  --ff-h:    'Playfair Display', Georgia, serif;
+  --ff-b:    'Plus Jakarta Sans', system-ui, sans-serif;
+  --r:       8px;
+  --r2:      14px;
+  --gutter:  2rem;
+  --max:     1200px;
+  --ease:    cubic-bezier(.4,0,.2,1);
+}
+
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;font-size:16px}
+body{font-family:var(--ff-b);background:var(--bg);color:var(--text);line-height:1.65;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+::selection{background:var(--gold);color:#0a0a0f}
+::-webkit-scrollbar{width:5px}
+::-webkit-scrollbar-track{background:var(--bg2)}
+::-webkit-scrollbar-thumb{background:var(--gold);border-radius:3px}
+
+/* ── NOISE OVERLAY ─────────────────────────────── */
+body::before{
+  content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
+  background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+  opacity:.4;
+}
+
+/* ── LAYOUT ──────────────────────────────────────── */
+.wrap{max-width:var(--max);margin:0 auto;padding:0 var(--gutter);position:relative}
+section{padding:6rem 0;position:relative;z-index:1}
+
+/* ── TYPOGRAPHY ─────────────────────────────────── */
+.display{
+  font-family:var(--ff-h);
+  font-size:clamp(2.8rem,5.5vw,4.6rem);
+  font-weight:600;line-height:1.1;
+  letter-spacing:-.025em;color:var(--text);
+}
+.display em{font-style:italic;color:var(--gold);font-weight:400}
+h1{font-family:var(--ff-h);font-size:clamp(2.2rem,4vw,3.4rem);font-weight:600;line-height:1.15;letter-spacing:-.02em}
+h2{font-family:var(--ff-h);font-size:clamp(1.7rem,3vw,2.4rem);font-weight:600;line-height:1.2;letter-spacing:-.018em}
+h3{font-family:var(--ff-b);font-size:1.05rem;font-weight:600;letter-spacing:-.01em}
+.eyebrow{
+  font-size:.72rem;font-weight:600;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--gold);
+  display:inline-flex;align-items:center;gap:.5rem;
+}
+.eyebrow::before{content:'';width:24px;height:1.5px;background:var(--gold);display:inline-block}
+.lead{font-size:1.12rem;color:var(--text2);line-height:1.8}
+p{color:var(--text2);line-height:1.75}
+
+/* ── NAV ────────────────────────────────────────── */
+nav{
+  position:sticky;top:0;z-index:100;
+  background:rgba(10,10,15,.85);
+  border-bottom:1px solid var(--border);
+  backdrop-filter:blur(18px) saturate(1.4);
+  -webkit-backdrop-filter:blur(18px) saturate(1.4);
+}
+.nav-i{
+  max-width:var(--max);margin:0 auto;padding:0 var(--gutter);
+  height:64px;display:flex;align-items:center;justify-content:space-between;
+}
+.logo{
+  font-family:var(--ff-h);font-size:1.3rem;font-weight:700;
+  color:var(--text);text-decoration:none;letter-spacing:-.02em;
+  display:flex;align-items:center;gap:.35rem;
+}
+.logo .dot{color:var(--gold);font-size:1.5rem;line-height:1}
+.nav-links{display:flex;align-items:center;gap:1.75rem;list-style:none}
+.nav-links a{
+  font-size:.875rem;font-weight:500;color:var(--text2);
+  text-decoration:none;transition:color .2s var(--ease);position:relative;
+}
+.nav-links a::after{
+  content:'';position:absolute;bottom:-2px;left:0;right:0;
+  height:1px;background:var(--gold);transform:scaleX(0);
+  transform-origin:left;transition:transform .25s var(--ease);
+}
+.nav-links a:hover,.nav-links a.active{color:var(--text)}
+.nav-links a:hover::after,.nav-links a.active::after{transform:scaleX(1)}
+.btn-book{
+  background:linear-gradient(135deg,var(--gold),#a77830);
+  color:#0a0a0f !important;font-weight:600 !important;
+  padding:.48rem 1.2rem;border-radius:var(--r);
+  font-size:.84rem;letter-spacing:.01em;
+  transition:opacity .2s,transform .2s !important;
+}
+.btn-book::after{display:none !important}
+.btn-book:hover{opacity:.88;transform:translateY(-1px) !important}
+.nav-toggle{display:none;background:none;border:none;cursor:pointer;color:var(--text);font-size:1.4rem;padding:4px 6px}
+.mobile-menu{
+  display:none;position:absolute;top:64px;left:0;right:0;
+  background:rgba(10,10,15,.97);border-bottom:1px solid var(--border);
+  padding:1.5rem var(--gutter);flex-direction:column;gap:1.2rem;
+  backdrop-filter:blur(20px);
+}
+.mobile-menu.open{display:flex}
+.mobile-menu a{font-size:1rem;color:var(--text2);text-decoration:none;font-weight:500;padding:.3rem 0;border-bottom:1px solid var(--border)}
+.mobile-menu a:last-child{border:none}
+
+/* ── BUTTONS ─────────────────────────────────────── */
+.btn{
+  display:inline-flex;align-items:center;gap:.5rem;
+  padding:.72rem 1.6rem;border-radius:var(--r);
+  font-family:var(--ff-b);font-size:.9rem;font-weight:500;
+  text-decoration:none;border:none;cursor:pointer;
+  transition:all .22s var(--ease);letter-spacing:.01em;
+}
+.btn-gold{background:linear-gradient(135deg,var(--gold),#a77830);color:#0a0a0f;font-weight:600}
+.btn-gold:hover{opacity:.88;transform:translateY(-1px);box-shadow:0 8px 28px rgba(201,148,58,.35)}
+.btn-outline{
+  background:transparent;color:var(--text);
+  border:1.5px solid var(--border2);
+}
+.btn-outline:hover{border-color:var(--gold);color:var(--gold)}
+.btn-ghost{background:rgba(255,255,255,.05);color:var(--text)}
+.btn-ghost:hover{background:rgba(255,255,255,.1)}
+.btn-lg{padding:.9rem 2.2rem;font-size:1rem}
+
+/* ── CARDS ───────────────────────────────────────── */
+.card{
+  background:var(--card);border:1px solid var(--border);
+  border-radius:var(--r2);padding:2rem;
+  transition:border-color .25s var(--ease),transform .25s var(--ease),box-shadow .25s var(--ease);
+  position:relative;overflow:hidden;
+}
+.card::before{
+  content:'';position:absolute;inset:0;
+  background:linear-gradient(135deg,rgba(201,148,58,.04) 0%,transparent 60%);
+  opacity:0;transition:opacity .3s var(--ease);
+}
+.card:hover{border-color:rgba(201,148,58,.35);transform:translateY(-3px);box-shadow:0 16px 48px rgba(0,0,0,.35)}
+.card:hover::before{opacity:1}
+
+/* ── TAGS ────────────────────────────────────────── */
+.tag{
+  display:inline-block;padding:.28rem .7rem;
+  background:rgba(255,255,255,.06);border:1px solid var(--border2);
+  border-radius:4px;font-size:.75rem;font-weight:500;
+  color:var(--text2);letter-spacing:.02em;
+}
+.tag-gold{background:rgba(201,148,58,.12);color:var(--gold);border-color:rgba(201,148,58,.25)}
+.tag-blue{background:rgba(58,111,216,.12);color:#6b9ef7;border-color:rgba(58,111,216,.25)}
+.tag-teal{background:rgba(42,184,154,.12);color:#5dd4be;border-color:rgba(42,184,154,.25)}
+.tag-green{background:rgba(52,211,153,.1);color:#34d399;border-color:rgba(52,211,153,.2)}
+
+/* ── GRID ────────────────────────────────────────── */
+.g2{display:grid;grid-template-columns:repeat(2,1fr);gap:1.5rem}
+.g3{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem}
+.g4{display:grid;grid-template-columns:repeat(4,1fr);gap:1.25rem}
+
+/* ── DIVIDER ─────────────────────────────────────── */
+hr{border:none;border-top:1px solid var(--border);margin:2.5rem 0}
+
+/* ── SECTION HEADER ─────────────────────────────── */
+.sh{margin-bottom:3.5rem}
+.sh .eyebrow{margin-bottom:1rem}
+.sh h2{max-width:560px}
+.sh p{max-width:520px;margin-top:.875rem}
+
+/* ── STAT ────────────────────────────────────────── */
+.stat-n{font-family:var(--ff-h);font-size:2.8rem;font-weight:700;color:var(--text);line-height:1;letter-spacing:-.04em}
+.stat-l{font-size:.82rem;color:var(--text3);margin-top:.4rem;text-transform:uppercase;letter-spacing:.06em}
+
+/* ── HERO GRAIN OVERLAY ─────────────────────────── */
+.grain{
+  position:absolute;inset:0;pointer-events:none;
+  background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
+  opacity:.6;mix-blend-mode:overlay;
+}
+
+/* ── ANIMATIONS ─────────────────────────────────── */
+@keyframes fadeUp{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:translateY(0)}}
+@keyframes shimmer{0%,100%{opacity:.6}50%{opacity:1}}
+@keyframes pulse-ring{0%{transform:scale(.95);opacity:.7}70%{transform:scale(1.05);opacity:0}100%{transform:scale(1);opacity:0}}
+.a{animation:fadeUp .6s var(--ease) both}
+.a1{animation-delay:.1s}.a2{animation-delay:.22s}.a3{animation-delay:.34s}.a4{animation-delay:.46s}.a5{animation-delay:.58s}
+
+/* ── FLOATING GLOW ─────────────────────────────── */
+.glow{
+  position:absolute;border-radius:50%;pointer-events:none;
+  filter:blur(80px);opacity:.18;
+}
+
+/* ── GLOBE BADGE ────────────────────────────────── */
+.globe-badge{
+  display:inline-flex;align-items:center;gap:.5rem;
+  background:rgba(255,255,255,.05);border:1px solid var(--border2);
+  border-radius:20px;padding:.35rem .9rem;
+  font-size:.78rem;font-weight:500;color:var(--text2);
+}
+.flag{font-size:.9rem}
+
+/* ── COUNTRY FLAG STRIP ─────────────────────────── */
+.flag-strip{
+  display:inline-flex;align-items:center;gap:1.25rem;
+  background:rgba(201,148,58,.07);border:1px solid rgba(201,148,58,.2);
+  border-radius:8px;padding:.5rem 1.25rem;
+}
+.flag-item{display:flex;align-items:center;gap:.4rem;font-size:.82rem;font-weight:500;color:var(--text2)}
+.flag-item strong{color:var(--text)}
+
+/* ── FOOTER ─────────────────────────────────────── */
+footer{background:var(--bg2);border-top:1px solid var(--border);padding:5rem 0 2.5rem;position:relative;z-index:1}
+.footer-grid{display:grid;grid-template-columns:2.2fr 1fr 1fr 1fr;gap:3.5rem;margin-bottom:4rem}
+footer h5{font-size:.72rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--text3);margin-bottom:1.25rem}
+footer a{display:block;color:var(--text2);text-decoration:none;font-size:.88rem;margin-bottom:.65rem;transition:color .2s}
+footer a:hover{color:var(--gold)}
+.footer-bottom{border-top:1px solid var(--border);padding-top:1.75rem;display:flex;justify-content:space-between;align-items:center;font-size:.8rem;color:var(--text3)}
+.footer-bottom a{color:var(--text3);text-decoration:none;transition:color .2s}
+.footer-bottom a:hover{color:var(--gold)}
+
+/* ── RESPONSIVE ─────────────────────────────────── */
+@media(max-width:1024px){.g4{grid-template-columns:repeat(2,1fr)}.footer-grid{grid-template-columns:1fr 1fr;gap:2rem}}
+@media(max-width:768px){
+  .g2,.g3{grid-template-columns:1fr}
+  section{padding:4rem 0}
+  .nav-links{display:none}
+  .nav-toggle{display:block}
+  .footer-grid{grid-template-columns:1fr}
+  .display{font-size:2.4rem}
+}
+</style>
+</head>
+<body>
+
+<!-- ── NAV ─────────────────────────────────── -->
+<nav>
+  <div class="nav-i">
+    <a href="index.html" class="logo">Rajendra<span class="dot">.</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="work.html">Work</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="https://topmate.io/rajendra_gupta11" target="_blank" class="btn-book">Book a Call →</a></li>
+    </ul>
+    <button class="nav-toggle" onclick="toggleMenu()" aria-label="Menu">☰</button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html">Home</a><a href="about.html">About</a>
+    <a href="services.html">Services</a><a href="work.html">Work</a>
+    <a href="blog.html">Blog</a><a href="contact.html">Contact</a>
+    <a href="https://topmate.io/rajendra_gupta11" target="_blank" style="color:var(--gold)">Book a Free Call →</a>
+  </div>
+</nav>
+
+<!-- ── HERO ────────────────────────────────── -->
+<section style="min-height:92vh;display:flex;align-items:center;padding:5rem 0;background:var(--bg);overflow:hidden;position:relative;">
+  <div class="glow" style="width:700px;height:700px;background:var(--gold);top:-200px;right:-200px"></div>
+  <div class="glow" style="width:500px;height:500px;background:var(--blue);bottom:-100px;left:-150px"></div>
+  <div class="grain"></div>
+
+  <!-- Grid lines -->
+  <div style="position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.025) 1px,transparent 1px);background-size:64px 64px;pointer-events:none"></div>
+
+  <div class="wrap" style="width:100%">
+    <div style="max-width:800px">
+      <!-- Country badge -->
+      <div class="a" style="margin-bottom:1.75rem;display:flex;flex-wrap:wrap;gap:.75rem;align-items:center">
+        <div class="flag-strip">
+          <span class="flag-item"><span class="flag">🇮🇳</span> <strong>India</strong></span>
+          <span style="color:var(--text3)">·</span>
+          <span class="flag-item"><span class="flag">🇦🇺</span> <strong>Australia</strong></span>
+        </div>
+        <span class="tag tag-gold">Available for new projects</span>
+      </div>
+
+      <div class="eyebrow a a1">Founder · Operator · Builder</div>
+      <h1 class="display a a2" style="margin-top:1rem;margin-bottom:1.5rem">
+        I help founders turn ideas<br>into <em>MVPs</em> — and MVPs<br>into real traction.
+      </h1>
+      <p class="lead a a3" style="max-width:560px;margin-bottom:2.5rem">
+        Not as a consultant standing outside the problem — as an operator who builds from the inside. Clarity before execution. Systems over hustle. Working with founders in <strong style="color:var(--text)">India and Australia.</strong>
+      </p>
+
+      <div class="a a4" style="display:flex;gap:1rem;flex-wrap:wrap;margin-bottom:4rem">
+        <a href="https://topmate.io/rajendra_gupta11" target="_blank" class="btn btn-gold btn-lg">Book a Free Call →</a>
+        <a href="services.html" class="btn btn-outline btn-lg">View Services</a>
+      </div>
+
+      <!-- Stats strip -->
+      <div class="a a5" style="display:flex;gap:3rem;padding:2rem;background:rgba(255,255,255,.03);border:1px solid var(--border);border-radius:var(--r2);flex-wrap:wrap;backdrop-filter:blur(10px)">
+        <div><div class="stat-n">250<span style="color:var(--gold)">+</span></div><div class="stat-l">Client projects</div></div>
+        <div style="width:1px;background:var(--border);self-align:stretch"></div>
+        <div><div class="stat-n">4</div><div class="stat-l">Live products</div></div>
+        <div style="width:1px;background:var(--border);self-align:stretch"></div>
+        <div><div class="stat-n">8<span style="color:var(--gold)">+</span></div><div class="stat-l">Years building</div></div>
+        <div style="width:1px;background:var(--border);self-align:stretch"></div>
+        <div><div class="stat-n">2</div><div class="stat-l">Countries served</div></div>
+      </div>
+    </div>
+
+    <!-- Floating accent card -->
+    <div style="position:absolute;right:var(--gutter);top:50%;transform:translateY(-50%);width:300px;background:var(--card);border:1px solid var(--border);border-radius:var(--r2);padding:1.75rem;backdrop-filter:blur(20px)" class="a a5" id="floatCard">
+      <div style="display:flex;align-items:center;gap:.75rem;margin-bottom:1.5rem">
+        <div style="width:40px;height:40px;background:linear-gradient(135deg,var(--gold),#a77830);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.1rem">👤</div>
+        <div>
+          <div style="font-size:.9rem;font-weight:600;color:var(--text)">Rajendra Gupta</div>
+          <div style="font-size:.78rem;color:var(--text3)">Founder & CEO</div>
+        </div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:.6rem">
+        <div style="display:flex;justify-content:space-between;align-items:center;padding:.6rem .75rem;background:rgba(255,255,255,.04);border-radius:6px">
+          <span style="font-size:.82rem;color:var(--text2)">MVP Sprint</span>
+          <span class="tag tag-green" style="font-size:.7rem">Open</span>
+        </div>
+        <div style="display:flex;justify-content:space-between;align-items:center;padding:.6rem .75rem;background:rgba(255,255,255,.04);border-radius:6px">
+          <span style="font-size:.82rem;color:var(--text2)">Growth Advisory</span>
+          <span class="tag tag-green" style="font-size:.7rem">Open</span>
+        </div>
+        <div style="display:flex;justify-content:space-between;align-items:center;padding:.6rem .75rem;background:rgba(255,255,255,.04);border-radius:6px">
+          <span style="font-size:.82rem;color:var(--text2)">Automation</span>
+          <span class="tag tag-gold" style="font-size:.7rem">2 slots</span>
+        </div>
+      </div>
+      <a href="https://topmate.io/rajendra_gupta11" target="_blank" class="btn btn-gold" style="width:100%;justify-content:center;margin-top:1.25rem;font-size:.85rem">Check availability →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ── AEO BIO ────────────────────────────── -->
+<section style="padding:3.5rem 0;background:var(--bg2);border-top:1px solid var(--border);border-bottom:1px solid var(--border)">
+  <div class="wrap">
+    <p style="font-family:var(--ff-h);font-size:1.2rem;font-weight:400;font-style:italic;color:var(--text2);line-height:1.9;max-width:860px;border-left:3px solid var(--gold);padding-left:1.75rem">
+      Rajendra Gupta is a startup founder, product builder, and operator based in Lucknow, India, serving clients across India and Australia. He is the Founder and CEO of <strong style="color:var(--text)">Celestial IT Verse Pvt. Ltd.</strong>, where he has completed <strong style="color:var(--text)">250+ client projects</strong> across web development, mobile apps, CRM systems, and SaaS platforms. He has built and launched <strong style="color:var(--text)">Driver Gill</strong> (on-demand driver platform), <strong style="color:var(--text)">Aajeevansang</strong> (matrimonial platform), <strong style="color:var(--text)">AAG</strong> (real-money skill gaming), and <strong style="color:var(--text)">Snap Visionary</strong> (AI poster app). He is currently building <strong style="color:var(--text)">VyapTrust</strong>, India's first behaviour-based MSME trust score platform.
+    </p>
+  </div>
+</section>
+
+<!-- ── INDIA + AUSTRALIA SECTION ─────────── -->
+<section style="background:var(--bg)">
+  <div class="wrap">
+    <div class="sh">
+      <div class="eyebrow">Global reach</div>
+      <h2 style="margin-top:1rem">Built for founders in India<br>and Australia</h2>
+      <p style="margin-top:1rem">I understand both markets — the speed and resourcefulness of Indian startup culture, and the rigour and process that Australian businesses expect.</p>
+    </div>
+    <div class="g2" style="gap:1.5rem">
+      <div class="card" style="border-color:rgba(255,153,51,.2)">
+        <div style="display:flex;align-items:center;gap:1rem;margin-bottom:1.5rem">
+          <div style="font-size:2.5rem">🇮🇳</div>
+          <div>
+            <h3 style="color:var(--text)">India</h3>
+            <div class="tag tag-gold" style="margin-top:.3rem;font-size:.72rem">Primary market</div>
+          </div>
+        </div>
+        <p style="font-size:.92rem;margin-bottom:1.25rem">Working with Indian founders since 2018. I understand the ecosystem — vendor rates, tech talent landscape, regulatory environment, and what Indian startup budgets actually look like.</p>
+        <div style="display:flex;flex-direction:column;gap:.5rem">
+          <div style="display:flex;align-items:center;gap:.6rem;font-size:.85rem;color:var(--text2)"><span style="color:var(--gold)">✓</span> Lucknow, Delhi, Mumbai, Bengaluru clients</div>
+          <div style="display:flex;align-items:center;gap:.6rem;font-size:.85rem;color:var(--text2)"><span style="color:var(--gold)">✓</span> INR pricing available</div>
+          <div style="display:flex;align-items:center;gap:.6rem;font-size:.85rem;color:var(--text2)"><span style="color:var(--gold)">✓</span> Hindi & English communication</div>
+          <div style="display:flex;align-items:center;gap:.6rem;font-size:.85rem;color:var(--text2)"><span style="color:var(--gold)">✓</span> India-specific compliance & market knowledge</div>
+        </div>
+      </div>
+      <div class="card" style="border-color:rgba(0,122,200,.2)">
+        <div style="display:flex;align-items:center;gap:1rem;margin-bottom:1.5rem">
+          <div style="font-size:2.5rem">🇦🇺</div>
+          <div>
+            <h3 style="color:var(--text)">Australia</h3>
+            <div class="tag tag-blue" style="margin-top:.3rem;font-size:.72rem">Active market</div>
+          </div>
+        </div>
+        <p style="font-size:.92rem;margin-bottom:1.25rem">Working with Australian founders and businesses who want offshore development quality without offshore communication problems. Timezone-aware, process-driven, and documentation-first.</p>
+        <div style="display:flex;flex-direction:column;gap:.5rem">
+          <div style="display:flex;align-items:center;gap:.6rem;font-size:.85rem;color:var(--text2)"><span style="color:#6b9ef7">✓</span> Sydney, Melbourne, Brisbane clients</div>
+          <div style="display:flex;align-items:center;gap:.6rem;font-size:.85rem;color:var(--text2)"><span style="color:#6b9ef7">✓</span> AUD pricing available</div>
+          <div style="display:flex;align-items:center;gap:.6rem;font-size:.85rem;color:var(--text2)"><span style="color:#6b9ef7">✓</span> AEST-compatible working hours</div>
+          <div style="display:flex;align-items:center;gap:.6rem;font-size:.85rem;color:var(--text2)"><span style="color:#6b9ef7">✓</span> Australian business culture + compliance awareness</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── SERVICES ────────────────────────────── -->
+<section style="background:var(--bg2)">
+  <div class="wrap">
+    <div class="sh">
+      <div class="eyebrow">What I do</div>
+      <h2 style="margin-top:1rem">Three ways I work with founders</h2>
+      <p style="margin-top:1rem">I don't work on everything. I work where clarity is missing and decisions are expensive.</p>
+    </div>
+    <div class="g3">
+      <a href="mvp-sprint.html" class="card" style="text-decoration:none;display:block">
+        <div style="width:46px;height:46px;background:rgba(201,148,58,.1);border:1px solid rgba(201,148,58,.2);border-radius:var(--r);display:flex;align-items:center;justify-content:center;font-size:1.3rem;margin-bottom:1.5rem">🚀</div>
+        <h3 style="margin-bottom:.75rem">MVP Launch Sprint</h3>
+        <p style="font-size:.9rem;margin-bottom:1.5rem">For founders with an idea but no execution plan. Idea validation, MVP scoping, build roadmap, launch support. Available in India and Australia.</p>
+        <div style="color:var(--gold);font-size:.85rem;font-weight:500">Learn more →</div>
+      </a>
+      <a href="services.html#growth" class="card" style="text-decoration:none;display:block">
+        <div style="width:46px;height:46px;background:rgba(58,111,216,.1);border:1px solid rgba(58,111,216,.2);border-radius:var(--r);display:flex;align-items:center;justify-content:center;font-size:1.3rem;margin-bottom:1.5rem">📈</div>
+        <h3 style="margin-bottom:.75rem">Growth System Setup</h3>
+        <p style="font-size:.9rem;margin-bottom:1.5rem">For startups with traction. SEO & content direction, performance marketing, funnel clarity, tracking and KPIs. Works for Indian and Australian markets.</p>
+        <div style="color:var(--blue);font-size:.85rem;font-weight:500">Learn more →</div>
+      </a>
+      <a href="services.html#automation" class="card" style="text-decoration:none;display:block">
+        <div style="width:46px;height:46px;background:rgba(42,184,154,.1);border:1px solid rgba(42,184,154,.2);border-radius:var(--r);display:flex;align-items:center;justify-content:center;font-size:1.3rem;margin-bottom:1.5rem">⚙️</div>
+        <h3 style="margin-bottom:.75rem">Automation & Systems</h3>
+        <p style="font-size:.9rem;margin-bottom:1.5rem">For founders done with manual repetitive work. WhatsApp/email automation, CRM integrations, custom dashboards, scalable internal systems.</p>
+        <div style="color:var(--teal);font-size:.85rem;font-weight:500">Learn more →</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ── HOW I THINK ─────────────────────────── -->
+<section style="background:var(--bg)">
+  <div class="wrap">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:6rem;align-items:center">
+      <div>
+        <div class="eyebrow">My approach</div>
+        <h2 style="margin-top:1rem;margin-bottom:1.5rem">Most business problems are clarity problems</h2>
+        <p style="margin-bottom:1.25rem">Not effort problems. The founders who move fastest are the ones who know exactly what the problem is before they start building. I've seen this pattern in Lucknow, in Bengaluru, in Sydney, and in Melbourne.</p>
+        <p style="margin-bottom:2rem">I work best with founders who value honest direction over comfortable reassurance — regardless of whether they're in India or Australia.</p>
+        <a href="about.html" class="btn btn-outline">Read my story →</a>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:1px">
+        <div style="padding:1.75rem;background:var(--card);border-radius:var(--r2) var(--r2) 0 0;border:1px solid var(--border);position:relative;overflow:hidden">
+          <div style="position:absolute;top:0;left:0;width:3px;height:100%;background:var(--gold)"></div>
+          <div style="padding-left:1rem">
+            <div style="font-family:var(--ff-h);font-size:2.2rem;font-weight:700;color:rgba(255,255,255,.08);line-height:1;margin-bottom:.75rem">01</div>
+            <h3 style="margin-bottom:.5rem">Clarity before execution</h3>
+            <p style="font-size:.88rem">We diagnose what is actually wrong — not what you think is wrong. Most founders waste months building the wrong thing.</p>
+          </div>
+        </div>
+        <div style="padding:1.75rem;background:var(--card);border:1px solid var(--border);border-top:none;position:relative;overflow:hidden">
+          <div style="position:absolute;top:0;left:0;width:3px;height:100%;background:var(--blue)"></div>
+          <div style="padding-left:1rem">
+            <div style="font-family:var(--ff-h);font-size:2.2rem;font-weight:700;color:rgba(255,255,255,.08);line-height:1;margin-bottom:.75rem">02</div>
+            <h3 style="margin-bottom:.5rem">Systems over hustle</h3>
+            <p style="font-size:.88rem">Hustle scales badly. Every engagement ends with repeatable processes — not a dependency on me being involved.</p>
+          </div>
+        </div>
+        <div style="padding:1.75rem;background:var(--card);border-radius:0 0 var(--r2) var(--r2);border:1px solid var(--border);border-top:none;position:relative;overflow:hidden">
+          <div style="position:absolute;top:0;left:0;width:3px;height:100%;background:var(--teal)"></div>
+          <div style="padding-left:1rem">
+            <div style="font-family:var(--ff-h);font-size:2.2rem;font-weight:700;color:rgba(255,255,255,.08);line-height:1;margin-bottom:.75rem">03</div>
+            <h3 style="margin-bottom:.5rem">Decisions over noise</h3>
+            <p style="font-size:.88rem">Fewer, better decisions — and then execute them properly. Progress you can explain to your team and investors.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── PRODUCTS ────────────────────────────── -->
+<section style="background:var(--bg2)">
+  <div class="wrap">
+    <div class="sh">
+      <div class="eyebrow">Live products</div>
+      <h2 style="margin-top:1rem">Operator credibility — not theory</h2>
+      <p style="margin-top:1rem">I advise on the same things I've built myself. Every product below is live and working.</p>
+    </div>
+    <div class="g2">
+      <a href="work.html#drivergill" class="card" style="text-decoration:none;display:flex;gap:1.25rem;align-items:flex-start">
+        <div style="width:52px;height:52px;background:rgba(201,148,58,.1);border:1px solid rgba(201,148,58,.2);border-radius:var(--r);flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:1.5rem">🚗</div>
+        <div>
+          <div style="display:flex;gap:.5rem;align-items:center;margin-bottom:.5rem">
+            <h3>Driver Gill</h3>
+            <span class="tag tag-teal" style="font-size:.68rem">Live ✓</span>
+          </div>
+          <p style="font-size:.88rem;margin-bottom:.75rem">On-demand driver booking platform. Pan-India operations, verified drivers, real-time availability.</p>
+          <span class="tag">B2C Platform</span>
+        </div>
+      </a>
+      <a href="work.html#aajeevansang" class="card" style="text-decoration:none;display:flex;gap:1.25rem;align-items:flex-start">
+        <div style="width:52px;height:52px;background:rgba(58,111,216,.1);border:1px solid rgba(58,111,216,.2);border-radius:var(--r);flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:1.5rem">💍</div>
+        <div>
+          <div style="display:flex;gap:.5rem;align-items:center;margin-bottom:.5rem">
+            <h3>Aajeevansang</h3>
+            <span class="tag tag-teal" style="font-size:.68rem">Live ✓</span>
+          </div>
+          <p style="font-size:.88rem;margin-bottom:.75rem">Modern matrimonial platform designed for clarity, trust, and simplicity in matchmaking.</p>
+          <span class="tag">Matrimonial Platform</span>
+        </div>
+      </a>
+      <a href="work.html#aag" class="card" style="text-decoration:none;display:flex;gap:1.25rem;align-items:flex-start">
+        <div style="width:52px;height:52px;background:rgba(42,184,154,.1);border:1px solid rgba(42,184,154,.2);border-radius:var(--r);flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:1.5rem">🎮</div>
+        <div>
+          <div style="display:flex;gap:.5rem;align-items:center;margin-bottom:.5rem">
+            <h3>AAG</h3>
+            <span class="tag tag-teal" style="font-size:.68rem">Live ✓</span>
+          </div>
+          <p style="font-size:.88rem;margin-bottom:.75rem">Real-money skill gaming platform. Performance-focused architecture and regulatory compliance.</p>
+          <span class="tag">Gaming Platform</span>
+        </div>
+      </a>
+      <a href="work.html" class="card" style="text-decoration:none;display:flex;gap:1.25rem;align-items:flex-start">
+        <div style="width:52px;height:52px;background:rgba(255,255,255,.05);border:1px solid var(--border2);border-radius:var(--r);flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:1.2rem;color:var(--text2)">→</div>
+        <div>
+          <div style="display:flex;gap:.5rem;align-items:center;margin-bottom:.5rem">
+            <h3>250+ Client Projects</h3>
+          </div>
+          <p style="font-size:.88rem;margin-bottom:.75rem">Web, mobile, SaaS, and automation across India and Australia — startups to established businesses.</p>
+          <span class="tag tag-gold">View all work →</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ── CLIENTS ─────────────────────────────── -->
+<section style="background:var(--bg)">
+  <div class="wrap">
+    <div class="sh">
+      <div class="eyebrow">Trusted by</div>
+      <h2 style="margin-top:1rem">Clients across India and Australia</h2>
+    </div>
+
+    <div style="margin-bottom:2rem">
+      <div style="display:flex;align-items:center;gap:.75rem;margin-bottom:1rem">
+        <span class="flag">🇮🇳</span>
+        <span style="font-size:.8rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--text3)">India</span>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:.6rem">
+        <span class="tag">Titanium Glass</span><span class="tag">Rasphil Academy</span>
+        <span class="tag">Aliganj Montessori School</span><span class="tag">Wallantics</span>
+        <span class="tag">Radiance Cleaning Services</span><span class="tag">Bageechawala</span>
+        <span class="tag">Pinak Adventure</span><span class="tag">Marine Drive Food Court</span>
+        <span class="tag">Lectix Scooty</span><span class="tag">YOGC</span>
+        <span class="tag">AAG</span><span class="tag">Driver Gill</span>
+        <span class="tag">Aajeevansang</span><span class="tag">+ 237 more</span>
+      </div>
+    </div>
+
+    <div>
+      <div style="display:flex;align-items:center;gap:.75rem;margin-bottom:1rem">
+        <span class="flag">🇦🇺</span>
+        <span style="font-size:.8rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--text3)">Australia</span>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:.6rem">
+        <span class="tag tag-blue">Web & SaaS projects — Sydney</span>
+        <span class="tag tag-blue">E-commerce builds — Melbourne</span>
+        <span class="tag tag-blue">MVP development — Brisbane</span>
+        <span class="tag tag-blue">Automation systems — Perth</span>
+        <span class="tag tag-blue">Growth consulting — Adelaide</span>
+        <span class="tag" style="border-style:dashed">+ enquiries welcome</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── TESTIMONIAL ─────────────────────────── -->
+<section style="background:var(--bg2)">
+  <div class="wrap">
+    <div style="max-width:760px;margin:0 auto;text-align:center">
+      <div style="font-size:2.5rem;margin-bottom:1.5rem;color:var(--gold);font-family:var(--ff-h)">"</div>
+      <p style="font-family:var(--ff-h);font-size:1.4rem;font-weight:400;font-style:italic;color:var(--text);line-height:1.7;margin-bottom:1.75rem">
+        What sets Rajendra apart is that he has actually built the things he advises on. When he tells you what will or won't work — it comes from real experience, not from a framework he read about.
+      </p>
+      <div style="display:flex;align-items:center;justify-content:center;gap:.75rem">
+        <div style="width:40px;height:40px;background:linear-gradient(135deg,var(--gold),#a77830);border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;color:#0a0a0f;font-size:.9rem">SK</div>
+        <div style="text-align:left">
+          <div style="font-size:.9rem;font-weight:600;color:var(--text)">Startup Founder</div>
+          <div style="font-size:.8rem;color:var(--text3)">MVP Sprint client · Lucknow, India</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── CTA ─────────────────────────────────── -->
+<section style="background:var(--bg);position:relative;overflow:hidden">
+  <div class="glow" style="width:600px;height:400px;background:var(--gold);bottom:-200px;right:-100px;opacity:.12"></div>
+  <div class="wrap" style="text-align:center;position:relative">
+    <div class="eyebrow" style="justify-content:center">Ready to start?</div>
+    <h2 style="margin-top:1rem;max-width:540px;margin-left:auto;margin-right:auto">Have an idea that needs clarity? Let's talk.</h2>
+    <p style="max-width:460px;margin:.875rem auto 2.5rem">A free 30-minute call. No pitch, no pressure. Available for founders in India and Australia.</p>
+    <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;margin-bottom:1.5rem">
+      <a href="https://topmate.io/rajendra_gupta11" target="_blank" class="btn btn-gold btn-lg">Book a Free Call →</a>
+      <a href="contact.html" class="btn btn-outline btn-lg">Send a Message</a>
+    </div>
+    <div style="display:flex;gap:2rem;justify-content:center;flex-wrap:wrap">
+      <span style="font-size:.82rem;color:var(--text3)">🇮🇳 +91 63064 70701</span>
+      <span style="font-size:.82rem;color:var(--text3)">✉️ rajendra@celestialitverse.com</span>
+      <span style="font-size:.82rem;color:var(--text3)">🇦🇺 AUD pricing available</span>
+    </div>
+  </div>
+</section>
+
+<!-- ── FOOTER ──────────────────────────────── -->
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <a href="index.html" class="logo" style="font-size:1.4rem;margin-bottom:1rem;display:inline-block">Rajendra<span class="dot">.</span></a>
+        <p style="font-size:.88rem;line-height:1.75;max-width:280px;margin-bottom:1.25rem">Founder & CEO · Celestial IT Verse Pvt. Ltd. Building products and advising founders across India and Australia.</p>
+        <div style="display:flex;gap:.75rem;flex-wrap:wrap">
+          <span class="tag tag-gold" style="font-size:.72rem">🇮🇳 India</span>
+          <span class="tag tag-blue" style="font-size:.72rem">🇦🇺 Australia</span>
+        </div>
+      </div>
+      <div>
+        <h5>Services</h5>
+        <a href="mvp-sprint.html">MVP Launch Sprint</a>
+        <a href="services.html#growth">Growth System</a>
+        <a href="services.html#automation">Automation</a>
+        <a href="contact.html">Get a Quote</a>
+      </div>
+      <div>
+        <h5>Pages</h5>
+        <a href="about.html">About Me</a>
+        <a href="work.html">Work & Portfolio</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div>
+        <h5>Connect</h5>
+        <a href="https://topmate.io/rajendra_gupta11" target="_blank">Book a Call</a>
+        <a href="mailto:rajendra@celestialitverse.com">Email</a>
+        <a href="tel:+916306470701">+91 63064 70701</a>
+        <a href="https://celestialitverse.com" target="_blank">Celestial IT Verse</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2018–2026 Rajendra Gupta. All rights reserved.</span>
+      <span>Designed & built by <a href="https://celestialitverse.com">Celestial IT Verse</a></span>
+    </div>
+  </div>
+</footer>
+
+<script>
+function toggleMenu(){
+  document.getElementById('mobileMenu').classList.toggle('open');
+}
+
+// Hide float card on mobile
+function checkFloat(){
+  const fc = document.getElementById('floatCard');
+  if(fc) fc.style.display = window.innerWidth < 1100 ? 'none' : 'block';
+}
+checkFloat();
+window.addEventListener('resize', checkFloat);
+
+// Subtle card entrance on scroll
+const observer = new IntersectionObserver((entries)=>{
+  entries.forEach(e=>{
+    if(e.isIntersecting){
+      e.target.style.opacity='1';
+      e.target.style.transform='translateY(0)';
+    }
+  });
+},{threshold:.1});
+
+document.querySelectorAll('.card').forEach((card,i)=>{
+  card.style.opacity='0';
+  card.style.transform='translateY(20px)';
+  card.style.transition=`opacity .5s ease ${i*.07}s, transform .5s ease ${i*.07}s, border-color .25s, box-shadow .25s`;
+  observer.observe(card);
+});
+</script>
+</body>
+</html>
